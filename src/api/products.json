@@ -1,0 +1,58 @@
+
+[
+    {
+        "id": 1,
+        "name": "Excalibur G770.1265-DFJ0X-B Intel Core I7-12650H 32GB RAM 1TB NVME SSD GEN4 4GB RTX3050 FreeDos",
+        "brand": "Casper",
+        "oldPrice": "30.699 TL",
+        "newPrice": "27.699 TL",
+        "image": "https://cdn.dsmcdn.com/mnresize/1200/1800/ty1348/product/media/images/prod/QC/20240603/10/e6bcceef-a5f8-3764-806d-e4ce45ec1216/1_org_zoom.jpg",
+        "category": "Elektronik"
+    },
+    {
+        "id": 2,
+        "name": "Macbook Air M1 Çip 8gb 256gb Ssd Macos 13' Qhd Taşınabilir Bilgisayar Uzay Grisi",
+        "brand": "Apple",
+        "oldPrice": "30.500 TL",
+        "newPrice": "25.794 TL",
+        "image": "https://cdn.dsmcdn.com/ty1018/product/media/images/prod/SPM/PIM/20231019/13/899e8cb7-16a0-3617-bae0-555eacd2e713/1_org_zoom.jpg",
+        "category": "Elektronik"
+    },
+    {
+        "id": 3,
+        "name": "Macbook Air 13.6' M2 8gb 256gb Ssd Gece Yarısı",
+        "brand": "Apple",
+        "oldPrice": "33.499 TL",
+        "newPrice": "32.499 TL",
+        "image": "https://cdn.dsmcdn.com/ty743/product/media/images/20230222/12/286675166/865121440/1/1_org_zoom.jpg",
+        "category": "Elektronik"
+    },
+    {
+        "id": 4,
+        "name": "Matebook D15/ I5-1155g7 Işlemci/8gb Ram/512gb Ssd/ 15.6 Inç/ Win 11 Laptop Mistik Gümüş",
+        "brand": "Huawei",
+        "oldPrice": "21.099 TLL",
+        "newPrice": "17.109,90 TL",
+        "image": "https://cdn.dsmcdn.com/ty1087/product/media/images/prod/SPM/PIM/20231212/10/ebd79e48-13c1-3f2a-b117-11b61089da5e/1_org_zoom.jpg",
+        "category": "Elektronik"
+    },
+    {
+        "id": 5,
+        "name": "KATANA 17 B12VFK-1031XTR I5-12450H 16GB DDR5 RTX4060 GDDR6 8GB 512GB SSD 17.3 FHD 144Hz DOS",
+        "brand": "MSI",
+        "oldPrice": "36.950L",
+        "newPrice": "34.899 TL",
+        "image": "https://cdn.dsmcdn.com/ty1347/product/media/images/prod/QC/20240603/10/d0865634-8bda-363e-987f-1a1a97fef1db/1_org_zoom.jpg",
+        "category": "Elektronik"
+    },
+    {
+        "id": 6,
+        "name": "IP/Celeron İşlemci/4 GB RAM/128 GB SSD/15.6' /Win/Laptop Gri 82V700A9TX",
+        "brand": "Lenovo",
+        "oldPrice": "8.999 TL",
+        "newPrice": "6.618 TL",
+        "image": "https://cdn.dsmcdn.com/ty1087/product/media/images/prod/SPM/PIM/20231212/10/ebd79e48-13c1-3f2a-b117-11b61089da5e/1_org_zoom.jpg",
+        "category": "Elektronik"
+    }
+]
+
