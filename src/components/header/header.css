@@ -1,0 +1,53 @@
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo{
+    max-width: 20%;
+  }
+  .carticon{
+    margin-right: 5px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+  }
+  
+  .search-icon {
+    font-size: 1.2em;
+    margin-right: 8px;
+    color: #666;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 1em;
+  }
+  
+  .search-input::placeholder {
+    color: #aaa;
+  }
+  .productcart {
+    display: flex;
+    align-items: center;
+  }
+    

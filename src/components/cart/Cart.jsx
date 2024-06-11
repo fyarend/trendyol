@@ -1,11 +1,13 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './cart.css';
 
-function Cart({ cart, removeFromCart }) {
+function Cart({ cart, addToCart, removeFromCart }) {
+  
   const getTotal = () => {
-    return cart.reduce((total, product) => total + parseFloat(product.newPrice.replace('₺', '').replace('.', '').replace(',', '.')), 0);
+    return cart.reduce((total, product) =>
+      total + parseFloat(product.newPrice.replace('₺', '').replace('.', '').replace(',', '.')) * product.quantity, 0);
   };
 
   return (
@@ -20,8 +22,12 @@ function Cart({ cart, removeFromCart }) {
               <img src={product.image} alt={product.name} />
               <div>
                 <h3>{product.name}</h3>
-                <p>{product.newPrice}</p>
-                <button onClick={() => removeFromCart(product.id)}>Kaldır</button>
+                <p className="price">Fiyat: {product.newPrice}</p>
+                <div className="button-group">
+                  <button className="buttonaddbutton" onClick={() => addToCart(product)}>+</button>
+                  <p className="quantity">Miktar: {product.quantity}</p>
+                  <button className="buttonremovebutton" onClick={() => removeFromCart(product.id)}>-</button>
+                </div>
               </div>
             </div>
           ))}

@@ -1,15 +1,8 @@
 
-/* Genel Ayarlar */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   margin: 0;
-  padding: 20px;
-}
-
-.container {
-  max-width: 1200px;
-  margin: auto;
   padding: 20px;
 }
 
@@ -22,7 +15,6 @@ body {
 
 .product-item {
   background-color: #fff;
-  border: 1px solid #eaeaea;
   border-radius: 5px;
   padding: 20px;
   width: 200px; 
@@ -60,3 +52,31 @@ body {
   color: #555;
 }
 
+.productcart {
+  display: inline-flex;
+  align-items: center;
+}
+
+.carticon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.cartbutton {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btncart{
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
